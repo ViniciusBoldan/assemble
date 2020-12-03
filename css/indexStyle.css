@@ -56,8 +56,9 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-a.active,a:hover{
-    background: #9f9f9f;
+nav ul li a.active,nav ul li a:hover{
+    color: white;
+    background: #5f5f5f;
     transition: 0.5s;
 }
 
@@ -77,16 +78,20 @@ a.active,a:hover{
 
 /*area do banner*/
 .banner{
+    border: 1px solid black;
     text-align: right;
     margin-top: 14%;
     margin-right: 10%;
+    margin-left: 50%;
 }
 .banner h1{
+    margin-right: 10px;
     color: #444;
     font-size: 70px;
 }
 
 .banner h2{
+    margin-right: 10px;
     color: #666;
     font-size: 30px;
 
@@ -97,6 +102,7 @@ a.active,a:hover{
     background: white;
     width: 100%;
     margin-top: 20%;
+    border-bottom: 1px solid #5f5f5f;
 }
 
 .talkchat .content{
@@ -108,6 +114,7 @@ a.active,a:hover{
     text-align: justify;
     margin-left: 5%;
     margin-right: 2%;
+    width: 50%;
 }
 .talkchat .text h1{
     font-size: 50px;
@@ -115,16 +122,25 @@ a.active,a:hover{
 .talkchat .text p{
     font-size: 25px;
 }
+.talkchat .text a{
+    color: #5f5f5f;
+    font-size: 20px;
+}
+.talkchat .text a:hover{
+    color: #fff;
+    background: #8f8f8f;
+}
 .talkchat .image{
     margin-top: 5%;
 }
 
 
-/*secção da conlang*/
+/*seção da conlang*/
 .conlang{
     background: white;
     width: 100%;
     margin-top: 2%;
+    border-bottom: 1px solid #5f5f5f;
 }
 
 .conlang .content{
@@ -134,7 +150,8 @@ a.active,a:hover{
 
 .conlang .text{
     text-align: justify;
-    margin-left: 5%;
+    width:50%;
+    margin-left: 4%;
     margin-right: 2%;
 }
 .conlang .text h1{
@@ -142,6 +159,14 @@ a.active,a:hover{
 }
 .conlang .text p{
     font-size: 25px;
+}
+.conlang .text a{
+    color: #5f5f5f;
+    font-size: 20px;
+}
+.conlang .text a:hover{
+    color: #fff;
+    background: #8f8f8f;
 }
 .conlang .image{
     margin-top: 5%;
