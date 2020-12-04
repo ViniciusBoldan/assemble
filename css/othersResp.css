@@ -16,9 +16,18 @@
 
 @media (max-width: 858px){
 
+    html{
+            width: 100%;
+            height: 80%;
+    }
+    body{
+        background: #0f0f0f;
+    }
+
     .checkbtn{
         display: block;
     }
+
 
     nav{
         height: 50px;
@@ -29,7 +38,7 @@
         width: 100%;
         height: 12vh;
         background: #000;
-        opacity: 50%;
+        opacity: 90%;
         top: 50px;
         left: 100%;
         text-align: center;
@@ -55,8 +64,54 @@
     .checkbtn{
         margin-top: 10px;
         font-size: 28px;
+        color: #9f9f9f;
     }
 
     #check:checked ~ ul{
         left: 0;
     }
+
+
+    /*seção do banner*/
+    .banner{
+        height: 100%;
+    }
+    .banner .text{
+        width: 90%;
+    }
+    .banner .text h1{
+        font-size: 25px;
+    }
+    .banner .text a{
+        font-size: 15px;
+    }
+    .banner .text p{
+        font-size: 15px;
+    }
+
+
+    /*seção do conteudo*/
+    section .content{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: block;
+    }
+    section .text{
+        width: 90%;
+    }
+    section .text h1{
+        font-size: 25px;
+    }
+    section .text p{
+        font-size: 15px;
+    }
+    section .text a{
+        font-size: 15px;
+    }
+    section .image{
+        width: 100%;
+    }
+    section .image img{
+        width: 100%;
+    }
+}

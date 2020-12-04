@@ -86,7 +86,6 @@ nav ul li a.active,nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 80px;
     background: black;
     opacity: 70%;
 }

@@ -82,29 +82,19 @@
 
 
     /*seção do talk chat*/
-    .talkchat .content{
+    section .content{
         display: block;
         margin: 0%;
+        width: 95%;
     }
-    .talkchat .text{
+    section .text{
         margin-top:10%;
         width: 88%;
     }
-    .talkchat .image img{
+    section .image{
+        width: 100%;
+        margin-left: 2.5%;
+    }
+    section .image img{
         width: 100%;
     }
-
-    /*seção da conlang*/
-    .conlang .content{
-        display: block;
-        margin: 0%;
-    }
-    .conlang .text{
-        margin-top:5%;
-        width: 88%;
-    }
-    .conlang .image img{
-        width: 100%;
-    }
-
-}
