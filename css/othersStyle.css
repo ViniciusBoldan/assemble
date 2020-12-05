@@ -132,7 +132,7 @@ section .text{
     width: 50%;
 }
 section .text h1{
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     color: #9f9f9f;
 }
@@ -151,7 +151,7 @@ section .text a:hover{
     transition: 1s;
 }
 section .image{
-    margin-top: 10%;
+    margin-top: 8%;
     width:60%;
 }
 section .image img{
